@@ -1,0 +1,10 @@
+---
+layout: page
+name: Binary
+position: programming language
+---
+
+
+# 010
+
+01010000100111001001010100110010011100100100101010001010101
