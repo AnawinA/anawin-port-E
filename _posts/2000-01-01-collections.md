@@ -14,7 +14,7 @@ dfs
 
 {% for staff_member in site.staff_members %}
   <h2>
-    <a href="{{ staff_member.url }}">
+    <a href="{{ staff_member.url | relative_url }}">
       {{ staff_member.name }} - {{ staff_member.position }}
     </a>
   </h2>
