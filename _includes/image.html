@@ -1,6 +1,6 @@
 <figure>
     <h1>hello</h1>
-    <a href="{{ include.url }}">
+    <a href="{{ include.url | relative_url }}">
     <img src="{{ include.file }}" style="max-width: {{ include.max-width }};"
        alt="{{ include.alt }}"/>
     </a>

@@ -10,7 +10,7 @@
     {{person.name}}, {{person.occupation}} <br>
 {% endfor %}
 
-<hr><hr>
+<hr>
 
 <ol>
 {% for file in site.static_files %}
@@ -18,7 +18,7 @@
     {% if file == file.image %}
         
     {% endif %}
-    <img src="{{file.path}}" alt="{{file.name}}" width="100">
+    <img src="{{ file.path | absolute_url }}" alt="{{file.name | absolute_url }}" width="100">
     
 {% endfor %}
 </ol>
